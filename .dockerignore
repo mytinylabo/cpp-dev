@@ -1,0 +1,4 @@
+.vscode
+.devcontainer
+.dockerignore
+.env-launch

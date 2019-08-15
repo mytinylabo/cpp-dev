@@ -1,0 +1,26 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++ build active file",
+            "command": "/usr/local/bin/g++",
+            "args": [
+                "-g",
+                "-Wall",
+                "-Werror",
+                "-std=c++14",
+                "-I${workspaceFolder}/include",
+                "-include",
+                "${workspaceFolder}/include/input_helper.h",
+                "-DINPUT_HELPER",
+                "${file}",
+                "-o",
+                "${workspaceFolder}/a.out"
+            ],
+            "options": {
+                "cwd": "/usr/local/bin"
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
