@@ -11,7 +11,7 @@ Here "trivial code" means programs written in single .cpp file. I'm using this e
 
 ## How to run the sample(sum up numbers)
 
-1. `git clone git@github.com:mytinylabo/cpp-dev.git`
+1. `git clone git@github.com:mytinylabo/cpp-workspace.git`
 2. Launch VSCode and open `cpp-dev` directory by `Remote-Containers: Open Folder in Container...`
 3. Wait for the container to be built and up(takes some time)
 4. Open sample/main.cpp in VSCode
