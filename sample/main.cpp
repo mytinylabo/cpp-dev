@@ -5,7 +5,7 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     #ifdef INPUT_HELPER
-    input_helper::redirect_from("sample.in");
+    input_helper::redirect_from("sample1.in");
     #endif
 
     int n;
