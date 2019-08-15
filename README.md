@@ -1,4 +1,4 @@
-# cpp-dev
+# cpp-workspace
 This is a C++ environment on VSCode+Docker integration for writing trivial code.
 
 Here "trivial code" means programs written in single .cpp file. I'm using this environment to write programs for online code judge like http://judge.u-aizu.ac.jp/onlinejudge/
