@@ -17,3 +17,7 @@ Here "trivial code" means programs written in single .cpp file. I'm using this e
 4. Open sample/main.cpp in VSCode
 5. Hit F5 to build and run the active file
    - the result comes in `cppdbg: a.out` session in the terminal tab
+
+## Technical details
+
+- https://code.visualstudio.com/docs/remote/containers
