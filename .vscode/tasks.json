@@ -8,17 +8,21 @@
                 "-g",
                 "-Wall",
                 "-Werror",
-                "-std=c++14",
+                "-std=c++1z",
+                "-I/usr/include",
                 "-I${workspaceFolder}/include",
-                "-include",
-                "${workspaceFolder}/include/input_helper.h",
+                "-include", "${workspaceFolder}/include/input_helper.h",
+                "-ltbb", "-latomic",
                 "-DINPUT_HELPER",
                 "${file}",
                 "-o",
                 "${workspaceFolder}/a.out"
             ],
             "options": {
-                "cwd": "/usr/local/bin"
+                "cwd": "/usr/local/bin",
+                "env": {
+                    "PKG_CONFIG_PATH": "/usr/lib/x86_64-linux-gnu/pkgconfig"
+                }
             }
         }
     ],
