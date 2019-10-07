@@ -6,6 +6,7 @@
             "command": "/usr/local/bin/g++",
             "args": [
                 "-g",
+                "-O2",
                 "-Wall",
                 "-Werror",
                 "-std=c++1z",
