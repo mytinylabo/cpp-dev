@@ -7,3 +7,5 @@
 
 #include <cassert>
 #include <cmath>
+
+#include "benchmark.h"
